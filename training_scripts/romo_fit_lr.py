@@ -3,10 +3,6 @@ April 2022.
 
 Fit low-rank net to another low-rank trained on the Romo task.
 """
-
-import sys
-sys.path.append('../')
-
 from low_rank_rnns.modules import *
 from low_rank_rnns import romo, stats
 

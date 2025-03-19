@@ -4,11 +4,11 @@ April 2022.
 Fitting a full-rank net trained on the DMS task. Works with a rank 2!!
 """
 
-import sys
-sys.path.append('../')
-
-from low_rank_rnns.modules import *
-from low_rank_rnns import dms, helpers, stats
+import torch
+import numpy as np
+from low_rank_rnns import dms
+from low_rank_rnns.modules import FullRankRNN
+from low_rank_rnns.helpers import map_device
 
 size = 1024
 noise_std = 5e-2

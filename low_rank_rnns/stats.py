@@ -1,6 +1,3 @@
-import sys
-sys.path.append('../')
-
 import numpy as np
 from math import sqrt
 from sklearn.metrics import r2_score

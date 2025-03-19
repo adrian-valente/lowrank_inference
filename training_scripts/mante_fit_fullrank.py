@@ -4,9 +4,6 @@ Dec. 2021.
 Train a full-rank network on the Mante data.
 """
 
-import sys
-sys.path.append('../')
-
 from low_rank_rnns.modules import *
 from low_rank_rnns import mante, stats
 import pandas as pd

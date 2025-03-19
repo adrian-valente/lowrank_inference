@@ -4,8 +4,6 @@ April 2022.
 Reproducing the experiment of fit_mante many times.
 """
 
-import sys
-sys.path.append('../')
 from low_rank_rnns.modules import *
 from low_rank_rnns import mante, helpers, stats
 

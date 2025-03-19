@@ -1,5 +1,3 @@
-import sys
-sys.path.append('../')
 from low_rank_rnns import mante
 import numpy as np
 from sklearn.linear_model import LinearRegression

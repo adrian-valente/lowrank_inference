@@ -2,10 +2,6 @@
 This script trains a rank 2 net for the DMS task with shaping (first delay is limited to a maximum of 1s, then
 increased)
 """
-
-import sys
-sys.path.append('../')
-
 import low_rank_rnns.dms as dms
 from low_rank_rnns.modules import *
 

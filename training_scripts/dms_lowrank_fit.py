@@ -4,11 +4,11 @@ April 2022
 Fit low-rank RNN to a low-rank RNN trained on the DMS task (for validation part).
 """
 
-import sys
-sys.path.append('../')
-
-from low_rank_rnns.modules import *
-from low_rank_rnns import dms, helpers, rankone
+import torch
+import numpy as np
+from low_rank_rnns import dms
+from low_rank_rnns.modules import LowRankRNN
+from low_rank_rnns.helpers import map_device
 
 size = 512
 noise_std = 5e-2

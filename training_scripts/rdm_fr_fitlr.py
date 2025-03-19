@@ -1,6 +1,3 @@
-import sys
-sys.path.append('../')
-
 from low_rank_rnns.modules import *
 from low_rank_rnns import rdm, helpers, stats
 

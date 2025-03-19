@@ -1,10 +1,6 @@
 """
 Trains on Romo with some shaping
 """
-
-import sys
-sys.path.append('../')
-
 from low_rank_rnns import romo
 from low_rank_rnns.modules import *
 from low_rank_rnns.helpers import *

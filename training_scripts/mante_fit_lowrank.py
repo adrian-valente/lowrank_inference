@@ -5,9 +5,6 @@ Train low-rank networks on the Mante data.
 Low-rank networks are pre-initialized with connectivity from a previously trained full-rank.
 """
 
-import sys
-sys.path.append('../')
-
 from low_rank_rnns.modules import *
 from low_rank_rnns import mante, stats, data_loader_mante as dlm, helpers
 import pandas as pd

@@ -4,8 +4,6 @@ April 2022.
 Fitting networks of increasing ranks to a full-rank network trained on the DMS task.
 """
 
-import sys
-sys.path.append('../')
 from low_rank_rnns.modules import *
 from low_rank_rnns import dms, stats
 

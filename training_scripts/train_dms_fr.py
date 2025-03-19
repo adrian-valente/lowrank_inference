@@ -3,10 +3,6 @@ Reworked on April 2022.
 
 Good lr for 1024 neurons seems to be 1e-5.
 """
-
-import sys
-sys.path.append('../')
-
 from low_rank_rnns.modules import *
 from low_rank_rnns import dms
 
